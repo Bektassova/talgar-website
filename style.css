@@ -1,0 +1,309 @@
+
+body{
+    background-color: #214178;
+}
+.header-logo{
+    position: relative;
+    width: 35%;
+}
+   
+.logo-TR{
+    position: absolute;
+  top: 0,8px;
+   width: 5%;
+
+}
+  .header-adress{
+    color: #FFF;
+font-family: Hanuman;
+font-size: 16px;
+padding-left: 3em;
+
+} 
+.headephone{
+    color: #FFF;
+    font-family: Hanuman;
+    font-size: 16px; 
+}
+
+
+/* All images! */
+img {
+    display: block;
+    width: 100%;
+}
+
+.banner {
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 32vw;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+.text-banner {
+    flex-direction: column;
+    margin-left:50px;
+    margin-right:50px;
+    background: rgb(77,126,149);
+    background: linear-gradient(0deg, rgba(77,126,149,1) 0%, rgba(20,66,87,1) 100%);
+    min-height: 50em;
+    height: auto;
+    padding-top: 50px;
+}
+
+.banner-text {
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 1rem;
+}
+
+.container-1 .header-logo{
+    margin: 0 px ;
+}
+
+
+.container-1{
+    padding: .5em;
+    margin:0 .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1043px;
+    height: 99px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Hanuman;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.p{
+    
+    width:75%;
+    padding-left:80px;
+    text-align:center;
+    color: #F5F5F5;
+    font-family: Hanuman;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box {
+    background-color:#C1C6A6;
+    border-radius:10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+
+.mainMenuList{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.mainMenuItems{
+    background-color: #214178 0%, #2C4B82 100%, #FFF;
+    margin: 0 60px;
+}
+.mainMenuButton{
+    background: linear-gradient(0deg, #A9B67F 0%, #A9B67F 100%), #D9D9D9;
+    color:#000;
+    padding:10px;
+    border-radius:8px;
+    text-decoration: none;
+    font-family: Hanuman;
+    display: block;
+    text-align: center;
+}
+.mainMenuButton:hover{
+    background-color: #949494;
+    color:#9a0000; 
+}
+
+.dropdown {
+    position: absolute;
+}
+
+/* Hide drop down on page load */
+.dropdownContent{
+    display:none;
+}
+
+/*  Style the inner list of the dropdown*/
+.dropdownContent ul{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+.dropdownContent li {
+    margin-top: 5px;
+}
+
+/* Show drop down on hover*/
+.mainMenuItems:hover .dropdown .dropdownContent{
+    display: block;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    width:20%;
+}
+
+.box-margin{
+    margin-left:50px;
+    margin-right:50px;
+}
+.box-text{
+    text-align:center;
+    font-size: 30px;
+    padding-top: 1em;
+}
+
+.Button{
+    background-color:#C1C6A6;
+    padding:10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: Hanuman;
+    font-size: 26px;
+    display: block;
+    width: 150px;
+    text-align:center;
+    margin: auto;
+    margin-top: 10px;
+}
+.Button-single{
+    background-color:#C1C6A6;
+    padding:10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: Hanuman;
+    font-size: 20px;
+    display: block;
+    width: 130px;
+    text-align:center;
+    margin: auto;
+    margin-top: 10px;
+}
+.ellipse {
+    position: relative;
+    background-image: url(Ellipse\ 1-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:25%;
+    padding-left: 0em;
+    padding-top: 0em;
+}
+.ellipse h4{
+    position:absolute;
+    top:20px;
+    left:80px;
+    text-decoration: none;
+    
+    font-family: Hanuman;
+    font-size: 30px;
+}
+
+.footer {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left:120px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.footer a {
+    color: white;
+}
+
+.services-short [class*="col-"] {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.services-short img {
+    height: 4rem;
+    margin-right: 1rem;
+    width: auto;
+}
+.text-services{
+    color: #FFF;font-family: Hanuman;
+        font-size: 28px;margin-left: 2em;
+}
+.Image-review{
+   padding-left: 11em;
+  
+}
+.round-image{
+    width:100%; 
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+   
+}
+.Review-text{
+    text-align:center;
+    font-size: 24px;
+    color: #C7D17B;
+text-align: justify;
+font-family: Arbutus Slab;
+padding-top: 3em;
+padding-right:4em ;
+
+
+}
+.box1{
+    color: #fff;
+    background: #004F68;
+    padding: 20px;
+}
+.container1{
+    padding: 50px;
+    margin: 40px;
+    position: static;
+    border: 5px solid #C7D17B;
+    margin-top:80px;
+    
+    
+}
+.box2{
+        color: #fff;
+        background: #004F68;
+        padding: 20px;
+        font-size: 22px;
+    }
+    .container2{
+        padding: 50px;
+        margin: 40px;
+        position: static;
+        border: 5px solid #C7D17B;
+     
+  
+        text-align: center;
+        font-size: 24px;
+    }
+ 
+    .Image1{
+     
+      
+      margin-top: 160px;
+      margin-left: 35px;
+      width: 90%;
+    }
